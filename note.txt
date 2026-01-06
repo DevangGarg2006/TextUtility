@@ -1,0 +1,27 @@
+>react allow us to make a single page apps (spa)
+
+>in react,
+        html written in js is not actual html but is js syntax extension JSX(in this we can use js inside html only)
+    if u are returning anything then that entire content should be wrap in something(div,header,p,etc) else will show error
+    if u have not this wrap it in <>.....</> and in return we can only return one wrap(ie div,<> ,etc)
+------------------------------------------------------------------------------------------------------------------------------------
+>we can also include Bootstrap(its a css framework) in react to quickly design css for react 
+>TO include Bootstrap in react :
+    go to Bootstrap/docs 
+    under starter template 
+    copy the script and link for js and css 
+    and paste in index.html of public 
+>and copy code from Bootstrap for react need to replace class with className and put a '/' in end of the tag who don't have closing tags
+    like <input type="text" placeholder="name" />
+-------------------------------------------------------------------------------------------------------------------------------------------
+>to use variables in jsx we use {}
+    for eg:
+                let name="harry"
+                <h>Hello {name}</h> ====>Hello harry
+
+> Whenever want to add js in jse(react) will write it within {.......}
+>babel compile jsx
+-----------------------------------------------------------------------------------------------------------------------------------
+>In our project of TextUtilies we use the concept of function
+>in newsapp project we will concept of class
+>in class we can create variables in class and can use state and props by this.props/state
